@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This challenge looks at food safety for the UK Food Standards Agency.  It looks at food establishments across the United Kingdom and gives them a hygiene rating. The challenge requires us to look at food ratings for the fictional magazine 'Eat Safe, Love'. The establishment 'Penang Flavours' is added the the collection, and is compared to other establishments in the collection.
+This challenge looks at food safety for the UK Food Standards Agency.  It looks at food establishments across the United Kingdom and gives them a hygiene rating. The challenge requires us to look at food ratings for the fictional magazine 'Eat Safe, Love'. The establishment 'Penang Flavours' is added to the collection, and is compared to other establishments in the collection.
 
 ## Data
 
@@ -10,11 +10,11 @@ The data consists of a JSON file (establishments.json), which contains one datab
 
 ## Methodology
 
-This challenge involves using MongoDM, Mongosh, and mostly Pymongo. These tools enable the import of the JSON file into MongoDM, and Python to parse the JSON file. Pymongo is used extensively to query and the data. Finally Pandas is also used to create DataFrames for ease of viewing the data.
+This challenge involves using MongoDM, Mongosh, and mostly Pymongo. These tools enable the import of the JSON file into MongoDB, and Python to parse the JSON file. Pymongo is used extensively to query and edit the data. Finally Pandas is also used to create DataFrames for ease of viewing the data.
 
 ## Results
 
-The results show a wide range of hygiene and rating values across the United Kingdom. 
+The results show a wide range of hygiene and rating values across the United Kingdom. Several DataFrames are created to present the data clearly and concisely.
 
 ## Conclusion
 
